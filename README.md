@@ -10,3 +10,4 @@ In order to place a move on the board, you must input keys 0-8, respectively.
 [6, 7, 8]
 
 
+![alt text](https://github.com/rishiso/Python-YP-Businesses/blob/master/Example%20Table%20Data.JPG "Game Image")
