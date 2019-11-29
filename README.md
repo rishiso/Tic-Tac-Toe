@@ -10,4 +10,4 @@ In order to place a move on the board, you must input keys 0-8, respectively.
 [6, 7, 8]
 
 
-![alt text](Tic Tac Toe.JPG "Game Image")
+![alt text](https://raw.githubusercontent.com/rishiso/Tic-Tac-Toe/master/Tic%20Tac%20Toe.JPG "Game Image")
