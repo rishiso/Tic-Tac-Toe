@@ -105,7 +105,7 @@ if __name__ == "__main__":
     time.sleep(2)
     print("X's are represented with 1, O's are represented with 2, and blank spaces are represented by 0.")
     time.sleep(4)
-    print("Use keys 0-8 to place objects on the board.")
+    print("Input a number from 0-8 to place objects on the board.")
     print("[0, 1, 2]")
     print("[3, 4, 5]")
     print("[6, 7, 8]\n")
