@@ -5,4 +5,4 @@ The board is a 2 dimensional array. X's are represented with 1, O's are represen
 
 In order to place a move on the board, you must input a key from 0-8. Each number corresponds to a certain space.
 
-![alt text](https://raw.githubusercontent.com/rishiso/Tic-Tac-Toe/master/Tic%20Tac%20Toe.JPG "Game Image")
+![alt text](https://raw.githubusercontent.com/rishiso/Tic-Tac-Toe/master/Game%20Image.png "Game Image")
