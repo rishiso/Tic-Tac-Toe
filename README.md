@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-* This is a python-based Tic Tac Toe game against a computer AI.
+* This is a python-based Tic Tac Toe game in which the player can play against a computer opponent.
 
 * The board is a 2D array. X's are represented with 1, O's are represented with 2, and blank spaces are represented by 0.
 
