@@ -7,4 +7,4 @@
 
 * In order to place a move on the board, you must input a key from 0-8. Each number corresponds to a certain space.
 
-![alt text](https://raw.githubusercontent.com/rishiso/Tic-Tac-Toe/master/Game%20Image.png "Game Image")
+![alt text](https://raw.githubusercontent.com/rishiso/Tic-Tac-Toe/master/Game%20Image.jpg "Game Image")
