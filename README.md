@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-* This is a python-based Tic Tac Toe game in which the player can play against an unbeatable AI opponent.
+* This is a Tic Tac Toe game in which the player can play against an unbeatable AI opponent.
 
 * The AI opponent is based on the minimax algorithm.
 
