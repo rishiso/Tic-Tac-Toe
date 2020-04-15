@@ -8,7 +8,7 @@ game = [["-", "-", "-"],
 def show_board():
     s = ""
     for i in game:
-        line = " | ".join([str(e) for e in i])
+        line = " | ".join(i)
         line += "\n"
         s += line
     print(s)
