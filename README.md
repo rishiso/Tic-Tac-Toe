@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 * This is a Tic Tac Toe game in which the player can play against an unbeatable AI opponent.
 
-* The AI opponent is based on the minimax algorithm.
+* The AI opponent is based on the minimax algorithm (see https://en.wikipedia.org/wiki/Minimax).
 
 * Blank spaces are represented by dashes.
 
