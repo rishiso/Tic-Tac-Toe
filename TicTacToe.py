@@ -13,7 +13,6 @@ def show_board():
         s += line
     print(s)
 
-
 def open_spots(board):
     spots = []
     for i in range(3):
