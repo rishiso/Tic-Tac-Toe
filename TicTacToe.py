@@ -13,18 +13,20 @@ def show_board():
         s += line
     print(s)
 
+
 def open_spots(board):
     spots = []
     for i in range(3):
         for i2 in range(3):
             if board[i][i2] == "-":
-                spots.append(i * 3 + i2)
+                spots.append((i * 3 + i2) + 1)
     return spots
 
 def player_move():
     move = int(input("Player move: "))
     while move not in open_spots(game):
-        move = int(input("Try Again: "))
+        move = int(input("Invalid move, try again: "))
+    move -= 1
     game[move // 3][move % 3] = "X"
 
 def minimax(board, is_maximizing):
@@ -36,6 +38,7 @@ def minimax(board, is_maximizing):
         best_value = -float("Inf")
         for move in open_spots(board):
             new_board = deepcopy(board)
+            move -= 1
             new_board[move // 3][move % 3] = "X"
             hypothetical_value = minimax(new_board, not is_maximizing)[0]
             if hypothetical_value > best_value:
@@ -45,6 +48,7 @@ def minimax(board, is_maximizing):
         best_value = float("Inf")
         for move in open_spots(board):
             new_board = deepcopy(board)
+            move -= 1
             new_board[move // 3][move % 3] = "O"
             hypothetical_value = minimax(new_board, not is_maximizing)[0]
             if hypothetical_value < best_value:
@@ -100,10 +104,10 @@ if __name__ == "__main__":
     time.sleep(2)
     print("Blank spaces are represented by dashes.")
     time.sleep(2)
-    print("Use keys 0-8 to place objects on the board.")
-    print("0 | 1 | 2")
-    print("3 | 4 | 5")
-    print("6 | 7 | 8\n")
+    print("Use keys 1-9 to place objects on the board.")
+    print("1 | 2 | 3")
+    print("4 | 5 | 6")
+    print("7 | 8 | 9\n")
     time.sleep(3)
     main()
     response = input("Play Again? (y/n) ")
