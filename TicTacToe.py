@@ -59,7 +59,7 @@ def minimax(board, is_maximizing):
 def computer_move():
     move = minimax(game, False)[1]
     game[move // 3][move % 3] = "O"
-    print(f"The computer played a move at {move}.")
+    print(f"The computer played a move at {move + 1}.")
 
 def possible_end(board):
     wins = [
