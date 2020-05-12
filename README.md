@@ -6,5 +6,8 @@
 * Blank spaces are represented by dashes.
 
 * In order to place a move on the board, you must input a key from 1-9. Each number corresponds to a certain space.
+
+
 Screenshot from program running:
+
 ![alt text](https://raw.githubusercontent.com/rishiso/Tic-Tac-Toe/master/Image.jpg "Game Image")
